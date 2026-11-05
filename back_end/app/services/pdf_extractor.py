@@ -1,6 +1,5 @@
 """US03 — Lecture des PDF avec PyMuPDF et extraction du texte de chaque CV."""
 from dataclasses import dataclass
-
 import pymupdf as fitz  # PyMuPDF
 
 MIN_CHARS = 50          # en dessous : PDF considéré comme vide (scan, image seule…)
